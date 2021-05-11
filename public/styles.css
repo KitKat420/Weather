@@ -27,3 +27,11 @@ body {
   width: 65vw;
   height: 80%;
 }
+
+.forecast {
+  margin-top: 2rem;
+}
+
+.forecast img {
+  height: 10rem;
+}

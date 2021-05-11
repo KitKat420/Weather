@@ -1,15 +1,19 @@
 import React from "react";
 import Form from "./Form";
+import Header from "./Header";
 
 function App() {
   return [
-    <header className="aws-header">
-      <h1>
-        powered by <span className="aws">aws</span>
-      </h1>
-    </header>,
+    <Header />,
     <div className="container">
       <Form />
+
+      <div className="forecast">
+        <h2>FORECAST</h2>
+        <img src="images/few-clouds-day.svg" alt="few-clouds-day-img" />
+        <h3>Few clouds</h3>
+        <p>temp</p>
+      </div>
     </div>,
   ];
 }
